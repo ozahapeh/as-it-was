@@ -1,0 +1,112 @@
+img{
+    animation: rotate 2s linear infinite;
+}
+@keyframes rotate {
+    0% { tranfsform: rotate(0deg);
+    }
+    100% { transform: rotate(360deg)
+    }
+}
+ 
+.img{
+    animation: move 2s infinite;
+}
+@keyframes move{
+    0% { transform: translateX(0);
+    }
+    100% { transform: translateX(100px);}
+}
+body{
+    animation: change 2s infinite;
+ }
+ @keyframes change{
+    0%{
+        background-color: red;
+    }
+    20%{
+        background-color: yellow;
+    }
+    40%{
+        background-color: orange;
+    }
+    60%{
+        background-color: greenyellow;
+    }
+    80%{
+        background-color: cyan;
+    }
+    100%{
+        background-color: plum;
+    }
+    120%{
+        background-color: purple;
+    }
+    140%{
+        background-color: gold;
+    }
+ }
+ .jk{
+    animation: jump 2s infinite;
+ }
+ @keyframes jump{
+    0% { transform: translateY(0);
+    }
+    100% { transform: translateY(100px);}
+}
+@media only screen and (max-width: 480px ) {
+    img{
+        animation: rotate 2s linear infinite;
+    }
+    @keyframes rotate {
+        0% { tranfsform: rotate(0deg);
+        }
+        100% { transform: rotate(360deg)
+        }
+    }
+     
+    .img{
+        animation: move 2s infinite;
+    }
+    @keyframes move{
+        0% { transform: translateX(0);
+        }
+        100% { transform: translateX(100px);}
+    }
+    body{
+        animation: change 2s infinite;
+     }
+     @keyframes change{
+        0%{
+            background-color: red;
+        }
+        20%{
+            background-color: yellow;
+        }
+        40%{
+            background-color: orange;
+        }
+        60%{
+            background-color: greenyellow;
+        }
+        80%{
+            background-color: cyan;
+        }
+        100%{
+            background-color: plum;
+        }
+        120%{
+            background-color: purple;
+        }
+        140%{
+            background-color: gold;
+        }
+     }
+     .jk{
+        animation: jump 2s infinite;
+     }
+     @keyframes jump{
+        0% { transform: translateY(0);
+        }
+        100% { transform: translateY(100px);}
+    }
+}
